@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(back.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.procars{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    margin-top: 55px;
+    text-shadow: 20px #8888;
+}
+.btn1{
+    padding: 20px 100px;
+    color:white;
+    font-size: 110%;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 400px;
+    border-radius: 40px 20px 40px 20px;
+    
+}
+.btn1:hover{
+    background-color: rgb(243, 95, 95);
+    transform: translateX(4px);
+}
+.logbtn{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-left: 90%;
+    margin-top: 30px;
+    
+}
+.logbtn:hover{
+    background-color: rgb(153, 149, 149);
+}

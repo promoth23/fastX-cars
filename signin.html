@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="signin.js" defer></script>
+    <title>Registration</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            font-family: 'Pacifico',cursive;
+            font-size: 260%;
+            color: rgb(10, 10, 10);
+        }
+        body{
+            background:rgba(0,0,0,0.2)url(signback.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+        #form{
+            border: 5px solid rgb(238, 231, 231);
+            box-shadow: 5px 15px 15px 15px #8888;
+            border-radius: 50px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 3%;
+            background-color: rgb(248, 245, 240);
+            
+            
+        }
+        input{
+            padding: 8px 45px;
+            border-radius: 40px;
+            margin-bottom: 0px;
+            outline: 0px;
+            border: 2px solid;
+            
+        }
+        label{
+            font-size: 140%;
+            font-family: 'Indie',cursive;
+        }
+        button{
+            padding: 10px 40px;
+            background-color:rgb(28, 231, 227);
+            border-radius: 25px 40px 25px 40px;
+            font-family: 'Indie-Flower',cursive;
+            font-size: 120%;
+        }
+        button:hover{
+            background-color: rgb(119, 168, 242);
+        }
+        .input-group .error{
+            color:rgb(242, 18, 18);
+            font-size:16px;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+
+        .input-group.success input{
+            background-color: #95e9c6;
+            color: black;
+        }
+
+        .input-group.error input{
+            background-color:rgb(205, 115, 115);
+            color: rgb(10, 10, 10);
+        }
+        #reset{
+            padding: 3px 10px;
+            border-radius: 10px;
+            background-color: bisque;
+        }
+        #reset:hover{
+            background-color: rgb(235, 96, 96);
+        }
+        @media only screen and (max-width:700px){
+            input{
+                padding: 8px 20px;
+            }
+            label{
+                font-size: 110%;
+            }
+            h1{
+                font-size: 240%;
+            }
+            button{
+                padding: 6px 20px;
+            }
+            #reset{
+                padding: 3px 6px;
+            }
+            #form{
+                width: 90%;
+                margin-top: 80px;
+                margin-left:4% ;
+
+            }
+            
+        }
+    </style>
+</head>
+<body><center>
+    <form id="form"><center>
+        <h1>Registration</h1><br><br><br>
+
+        <div class="input-group">
+        <label for="firstname">First Name  :</label>
+        <input type="text" id="firstname" name="firstname">
+        <div class="error"></div><br><br>
+        </div>
+
+        <div class="input-group">
+        <label for="lastname">Last Name   :</label>
+        <input type="text" id="lastname" name="lastname">
+        <div class="error"></div><br><br>
+        </div>
+        
+
+        <div class="input-group">
+        <label for="email">E-Mail Id   :</label>
+        <input type="text" id="email" name="email">
+        <div class="error"></div><br><br>
+        </div>
+
+        <div class="input-group">
+        <label for="pass">Password   :</label>
+        <input type="password" id="password" name="pass">
+        <div class="error"></div><br><br>
+        </div>
+
+        <div class="input-group">
+        <label for="conpass">Confirm Password:</label>
+        <input type="password" id="conpass" name="conpass">
+        <div class="error"></div><br><br>
+        </div>
+
+        <a href="#"><button type="submit">Register</button></a><br><br>
+        
+       
+    </center></form></center>
+</body>
+</html>

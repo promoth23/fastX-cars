@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Log In</title>
+    <style>
+        body{
+            height: 900%;
+            background:rgba(0,0,0,0.3)url(logback.png);
+            background-size: cover;
+            background-position: 5px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-blend-mode: darken;  
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+    justify-content: center;
+    align-items: center;   
+}
+
+.signborder{
+    border: 3px solid white;
+    width: 40%;
+    padding:2px 10px;
+    border-radius: 50px;
+
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+.signborder h1{
+    font-size: 270%;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+}
+.signborder h2{
+    font-size: 250%;
+    color: rgb(135, 175, 216);
+    font-family: 'Indie-Flower',cursive;
+    
+}
+label{
+    font-size: 155%;
+    color: rgb(196, 196, 188);
+}
+input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #888888;
+    background-color: rgb(196, 192, 192);
+    
+    
+}
+input:hover{
+    transform: translate(2px);
+}
+button{
+    padding: 10px 130px;
+    border-radius: 30px;
+    background-color: rgb(240, 138, 5);
+    color: aliceblue;
+    font-size: 130%;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(247, 190, 85);
+}
+#back{
+    padding: 7px 40px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 80%;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(left,rgb(34, 197, 234),rgb(27, 200, 114));
+}
+#back:hover{
+    background-image: -webkit-linear-gradient(right,rgb(34, 197, 234),rgb(27, 200, 114));
+}
+input{
+    color: black;
+}
+.signborder a{
+    text-decoration: none;
+    font-size: 150%;
+    color: aqua;
+}
+#switch a:hover{
+    text-decoration:underline;
+}
+#or{
+    color: white;
+    font-size: 120%;
+}
+#carlogo{
+    width: 30%;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+     <center><img src="logocar.png" alt=""id="carlogo"></center>
+    <div class="signborder">
+        <h1>Log In</h1>
+        <h2>Welcome Back cheif
+
+        </h2>
+    <br>
+    <label for="email">Your email:</label>
+    <input type="email" name="email"placeholder="eg.elon123rock@gmail.com" required />
+    <br>
+    <br>
+    <label for="password">Your password:</label>
+    <input type="password" name="password" placeholder="eg.ilovefood123" required />
+    <br><br><br>
+    <a href="#"><button >Log In</button></a>
+    <br><br>
+    <p id="or">or</p>
+    <p id="switch"><a href="signin.html" >Don't have an account?</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p id="switch"><a href="#" >Forget password</a></p><br><br><a href="main.html"><button id="back">Back</button></a><br><br>
+    </div><br><br>
+    
+</body>
+</html>
